@@ -34,7 +34,7 @@ variable "sample4" {
 }
 
 variable "sample5" {
-  type ="map"
+  type = "map"
   default =  {
     string = "Hello",
     number = 100,
