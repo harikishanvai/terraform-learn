@@ -49,7 +49,12 @@ output "sample4-1" {
 output "sample5-1" {
   value= var.sample5["number"]
 }
-variable "URL"{}
+variable "URL" {}
 output "URL" {
   value = var.URL
+}
+
+variable "URL_CLI" {}
+output "URL_CLI" {
+  value = var.URL_CLI
 }
