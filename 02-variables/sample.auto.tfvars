@@ -1,1 +1,1 @@
-URL1 "auto.google.com"
+URL1 = "auto.google.com"
