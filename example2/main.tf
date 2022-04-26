@@ -1,5 +1,5 @@
 module "ec2" {
-  source = "./ece2"
+  source = "./ec2"
   sg = module.sg.sg_id
 }
 
